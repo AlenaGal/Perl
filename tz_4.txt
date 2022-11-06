@@ -1,0 +1,1 @@
+SELECT "dname" FROM "domains" INNER JOIN "users" ON "users"."ID" = "domains"."user_id" WHERE "users"."name" = 'Иван Иванов'

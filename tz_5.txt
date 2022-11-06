@@ -1,0 +1,4 @@
+a) chmod 755 /var/logs/archive
+b) tar -C '/var/logs/archive' -xvf /var/logs/archive/backup.tar.gz
+c) rm /var/logs/archive/*.tmp
+d) grep -lar 'user deleted'  /var/logs/archive/
